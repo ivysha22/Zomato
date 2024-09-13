@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("/images/burger.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-size: 100vw;
+    
+}
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+}
+/* begining of heading-one */
+.heading-one{
+    display: flex;
+    gap: 20px;
+}
+.heading-one li{
+    list-style: none;
+    font-size: 17px;
+    color: white; 
+}
+.heading-one li i{
+    color: white;
+}
+/* beginning of heading-two */
+.heading-two{
+    display: flex;
+    gap: 30px;
+}
+.heading-two li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+.heading-two a{
+    text-decoration: none;
+    color: white;
+}
+/* beginning of zomato h1 */
+.heading2 h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 50px;   
+}
+.heading2 h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.search{
+    padding-left: 30%;
+    padding-bottom: 80px;
+}
+.search a{
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    height: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+#arrow{
+    border-right: solid grey 2px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.search input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 120px;
+    border: none;
+    position: relative;
+    bottom: 1px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* images with dj container beginning */
+
+.images-container{
+    display: flex;
+    margin: 40px auto;
+    width: 80%;
+}
+.images{
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+.images:hover{
+    transform: scale(1.1); /* Scales the div forward (zooms in) */
+}
+.images img{
+    width: 90%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid grey 1px;
+}
+#dj-image{
+    width: 310px;
+    height: 168px;
+}
+.images .words{
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    border-bottom: solid 1px grey;
+    position: relative;
+    bottom: 10px;
+    width: 90%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    padding-top: 18px;
+    
+}
+.words-dj{
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    border-bottom: solid 1px grey;
+    position: relative;
+    bottom: 10px;
+    width: 310px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.collections-container{
+    margin: 20px 120px;
+    position: relative;
+    bottom: 80px;
+}
+.explore-link{
+    display: flex;
+    gap: 130px;
+}
+.explore-link a{
+    color: red;
+    text-decoration: none;
+}
+.other-images{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    width: 80%;
+}
+.other-images img{
+    border-radius: 10px;
+}.other-images .words-2 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    font-size: 18px;
+    flex-wrap: wrap;
+
+}
+#icons-collections{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#icons-collections i{
+    position: relative;
+    top: 2.5px;
+}
+
+.localities-container{
+    margin-left: 120px;
+    position: relative;
+    bottom: 50px;
+}
+.localities-container h1{
+    font-size: 35px;
+}
+.boxes-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.boxes{
+    border: solid  1px rgb(187, 184, 184);
+    width: 30%;
+    border-radius: 10px;
+    z-index: 100;
+    box-shadow: 0px 2px 5px rgb(202, 200, 200);
+}
+.boxes:hover{
+    box-shadow: 0px 5px 5px rgb(202, 200, 200);
+}
+.box{
+    display: flex;
+    padding: 8px 20px;
+    gap: 50px;
+}
+.box i{
+   position: relative;
+   top: 10px;
+   /* left: 160px; */
+}
+#span{
+    display: flex;
+    flex-direction: column;
+}
+#more{
+    display: flex;
+    gap: 10px;
+}
+#more a{
+    position: relative;
+    left: 110px;
+    font-size: 18px;
+    text-decoration: none;
+    top: 5px;
+    color: black;
+}
+
+/* apps-container */
+
+.apps-container{
+    display: flex;
+    margin-left: 20%;
+    width: 80%;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.zomato-app h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.share-link input{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px 10px;
+}
+.share-link button{
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.social-media img{
+    width: 20%;
+}
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 120px;
+}
+.pages{
+    display: flex;
+    gap: 70%;
+    border: solid rgb(211, 211, 211) 1px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.pages a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot-child-1{
+    display: flex;
+    margin-left: 120px;
+}
+.btns{
+    display: flex;
+}
+.btns button{
+    display: flex;
+    width: 30%;
+    height: 30px;    
+    padding: 10px 10px;
+}
+.btns{
+    margin-left: 60%;
+    gap: 10px;
+    
+}
+.foot-child-1 img{
+    width: 10%;
+}
+
+.foot-child-2{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-bottom: solid grey 2px;
+    padding-bottom: 20px;
+}
+.foot-child-2 h1{
+    font-size: 16px;
+}
+.foot-child-2 .f-list li,a{
+    list-style: none;
+    color: rgb(168, 163, 163);
+    text-decoration: none;
+    line-height: 25px;
+}
+.f-list{
+    width: 270px;
+}
+.f-list img{
+    width: 80%;
+}
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 100%;
+}
+.f-list a:hover{
+    color: gray;
+}
+.foot3{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 20px;
+    color: rgb(168, 163, 163);
+}
+.menu-btn{
+    display: none;
+   }
+@media (max-width: 780px){
+    .heading1{
+        display: none;
+    }
+   .menu-btn{
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 33px;
+    margin: 20px 40px;
+    padding: 20px 10px;
+   }
+   header{
+    background-size: cover;
+    position: relative;
+    bottom: 20px;
+   }
+   .heading2 h1{
+    font-size: 90px;
+   }
+   .heading2 h2{
+    font-size: 40px;
+   }
+   .search{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    right: 120px;
+    width: 100%;
+   }
+   .search span{
+    width: 200px;
+   }
+   .search input{
+    height: 45px;
+    margin-top: 1px;
+   }
+   #countries{
+    display: flex;
+    width:500px;
+    margin-bottom: 2px;
+   }
+   .images{
+    width: 30%;
+   }
+   .words-dj{
+    width: 100%;
+   }
+   #djj img{
+    align-items: center;
+    width: 100%;
+    height: 47%;
+   }
+   #djj h1{
+    font-size: 20px;
+   }
+  .words h1{
+    font-size: 20px;
+  }
+  .collections-container{
+    margin-top: 90px;
+    margin-left: 80px;
+  }
+  .explore-link{
+    display: flex;
+    gap: 8px;
+    font-size: 23px;
+  }
+  .images-2 img{
+    width: 70%;
+  }
+  .images-2{
+    margin-right: 2px;
+    margin: 0%;
+  }
+  .images-2 img{
+    width: 100%;
+  }
+  .other-images{
+   display: flex;
+   flex-direction: row;
+    gap: 20px;
+    width: 70%;
+  }
+  .localities-container{
+    margin: 30px 50px;
+    width: 90%;
+  }
+  .apps-container{
+    margin: 30px 50px;
+  }
+  
+}
+
